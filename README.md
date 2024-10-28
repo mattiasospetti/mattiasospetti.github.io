@@ -1,2 +1,4 @@
-# Wide-And-Deep-Learning
-step-by-step implementation of the "Wide and Deep Learning for Recommender Systems"
+# Personal website
+
+still under heavy construction, for now you can browse through my personal projects.
+Hope you like it!
