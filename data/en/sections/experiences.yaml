@@ -11,6 +11,28 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Data Reply France
+    url: "https://www.reply.com/data-reply/fr"
+    location: Paris, France
+    logo: /images/sections/experiences/datareply.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/datareply-dark.png
+    # company overview
+    overview: Data Reply is the Reply Group company specialized in data, AI and cloud consulting, helping enterprises design, build and operationalize data-driven and AI solutions.
+  positions:
+  - designation: AI Engineer
+    start: September 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Stellantis Financial Services (Claim Handling Efficiency) - built and led to production an agentic system automating insurance claims handling (245 claims/month), based on a multi-agent architecture (Claude Sonnet 4.6, Strands Agents, AWS AgentCore) with document intelligence and automated decisioning.
+    - Reached 97.3% classification accuracy, 99.4% field extraction and 96.4% check accuracy across 84 automated controls, including vision-based checks that catch tampered documents.
+    - Optimized latency to ~106s/63s per claim at $0.53/claim, and added production-grade LLMOps, observability, monitoring and canary deployment.
+    - Primo (AI-powered IT Support Copilot) - built a serverless Level 1 support agent (MCP server, 7+ tools, AgentCore Gateway) with multi-source RAG via Tavily, reaching 10-12s response time at $0.19/conversation, available 24/7 and multilingual.
+    - Prismic (AI Content Optimization PoC) - built a 4-agent pipeline with LLM-as-judge scoring to optimize web content for SEO/GEO against brand voice, achieving +50% SEO/GEO score in under a minute.
+
+- company:
     name: GrottiniLab
     url: "https://medinnovations.it/it/"
     location: Macerata, Italy
@@ -18,18 +40,20 @@ experiences:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: GrottiniLab uses the latest digital computer vision technologies supported by artificial intelligence (AI), deep learning and machine learning to monitor, analyze and improve the world of Retail and Industry..
+    overview: GrottiniLab uses the latest digital computer vision technologies supported by artificial intelligence (AI), deep learning and machine learning to monitor, analyze and improve the world of Retail and Industry.
   positions:
-  - designation: Machine Larning Engineer
+  - designation: Machine Learning Engineer
     start: May 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: September 2025
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Designed and implemented Computer Vision solutions, creating new products or enhancing existing ones with new functionalities.
+    - Improved an internal reverse image search solution for a product optimizing supermarket supply chains, adopting focal loss, a newer Transformer architecture and hyperparameter optimization, raising accuracy from 92% to 96%.
+    - Trained diffusion models (LoRA, ControlNet) for personalized product generation.
+    - Built an LLM-based natural-language interface to the data warehouse (text-to-SQL, RAG with router and vector DB) enabling non-technical users to query data.
     - Implemented an embedded tracking solution, proposing innovative firmware and implementing proprietary libraries, reducing costs from €500 per unit to approximately €100.
-    - Improved an internal reverse image search solution by adopting updated loss functions and a more sophisticated training task, resulting in a 4% improvement, from 92% to 96%.
     - Ported a tracking solution from C++ to Python to improve long-term reliability and reduce technical debt, and enhanced scalability up to 100 Raspberry Pis simultaneously through automatic monitoring with AWS cloud solutions (RedShift, Lambda, AWS IoT, S3, SQS).
+    - Built a 360° remote monitoring system for construction sites (Jetson Nano, ZED stereo cameras) with real-time obstacle detection.
 
 - company:
     name: Télécom SudParis
@@ -38,7 +62,7 @@ experiences:
     logo: /images/sections/experiences/tsp.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: Télécom SudParis is a large school that forms general engineers, as well as special engineers and teachers, innovators and entrepreneurs,
+    overview: Télécom SudParis is a large school that forms general engineers, as well as special engineers and teachers, innovators and entrepreneurs.
   positions:
   - designation: Visiting Researcher Intern
     start: April 2024
@@ -48,7 +72,7 @@ experiences:
     - Implemented a real-world simulation system to test MQTT protocols from a cybersecurity perspective.
     - Developed classification neural networks whose accuracy increased by 10% through the adoption of more modern networks and improved training methods.
     - Implemented a backdoor injection on a GAN neural network for risk analysis.
-    - paper publication at https://inria.hal.science/hal-04832442/
+    - Paper publication at https://inria.hal.science/hal-04832442/
 
 - company:
     name: Tod's S.p.A.
@@ -57,10 +81,10 @@ experiences:
     logo: /images/sections/experiences/tod.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Tod’s is an Italian luxury fashion brand renowned for its high-quality leather goods, including shoes, bags, and accessories.
+    overview: Tod's is an Italian luxury fashion brand renowned for its high-quality leather goods, including shoes, bags, and accessories.
   positions:
   - designation: Data Analyst Intern
     start: October 2022
     end: February 2023
     responsibilities:
-    - Internship done at the Tod’s group. Development of a software architecture, starting from web scrapers to get the data and integrating it into data warehouse and creating Business Intelligence views.
+    - Internship done at the Tod's group. Development of a software architecture, starting from web scrapers to get the data and integrating it into data warehouse and creating Business Intelligence views.

@@ -12,6 +12,26 @@ section:
 # Your accomplishments
 accomplishments:
 
+- name: 3rd place, 2025 Paris GenAI Partner Hackathon
+  image: /images/sections/achievements/hackathon.jpeg
+  organization:
+    name: Paris GenAI Partner Hackathon
+    url: https://lnkd.in/p/ePPR3tBc
+
+- name: AWS Certified Solutions Architect - Associate
+  image: /images/sections/achievements/aws.png
+  organization:
+    name: Amazon Web Services
+    url: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+    certificateURL: https://www.credly.com/badges/8805bbb6-8892-4e97-a78f-5138d0bae81d/linked_in_profile
+
+- name: AWS Certified AI Practitioner
+  image: /images/sections/achievements/aws.png
+  organization:
+    name: Amazon Web Services
+    url: https://aws.amazon.com/certification/certified-ai-practitioner/
+    certificateURL: https://www.credly.com/badges/3d7d4520-d990-4ac6-9690-12d675617d1c/linked_in_profile
+
 - name: Cambridge C1 Level English Certificate
   image: /images/sections/achievements/eng.jpeg
   organization:

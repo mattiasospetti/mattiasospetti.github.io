@@ -10,6 +10,15 @@ section:
 
 # Your achievements achievements
 achievements:
+- title: 3rd place, 2025 Paris GenAI Partner Hackathon
+  image: /images/sections/achievements/hackathon.jpeg
+  summary:
+- title: AWS Certified Solutions Architect - Associate
+  image: /images/sections/achievements/aws.png
+  summary:
+- title: AWS Certified AI Practitioner
+  image: /images/sections/achievements/aws.png
+  summary:
 - title: Cambridge C1 Level English Certificate
   image: /images/sections/achievements/eng.jpeg
   summary:

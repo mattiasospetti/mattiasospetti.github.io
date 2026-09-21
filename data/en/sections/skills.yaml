@@ -23,10 +23,9 @@ buttons:
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Experience in coding general purpose and Ai-driven solution. Capable of following Pep 8 Rules. Data Structures and Algorithms skills"
+  summary: "Experience in coding general purpose and AI-driven solutions, including agentic systems in production. Capable of following PEP 8 rules. Data Structures and Algorithms skills"
   categories: ["programming"]
   url: "https://www.python.org"
-
 
 - name: SQL
   logo: /images/sections/skills/prova.png
@@ -34,17 +33,35 @@ skills:
   categories: ["programming"]
   url: 'https://en.wikipedia.org/wiki/SQL'
 
-- name: Tensorflow
-  logo: /images/sections/skills/tensorflow.png
-  summary: "Experience in Deep Learning using Tensorflow library. Proficiency in designing, training and deploying machine learning models"
+- name: Strands Agents
+  logo: /images/sections/skills/strands.png
+  summary: "Built and led to production multi-agent systems with Strands Agents, orchestrating specialized agents and tools (including MCP servers) for enterprise use cases such as insurance claims handling and IT support."
   categories: ["programming"]
-  url: 'https://www.tensorflow.org/'
+  url: 'https://strandsagents.com/'
+
+- name: LangChain
+  logo: /images/sections/skills/langchain.png
+  summary: "Experience building LLM-powered applications and RAG pipelines with LangChain, including routing and vector database retrieval."
+  categories: ["programming"]
+  url: 'https://www.langchain.com/'
+
+- name: HuggingFace
+  logo: /images/sections/skills/hface.png
+  summary: "Experience with HuggingFace Transformers for retrieving SOTA models, image classification, embeddings extractions and GenAI models."
+  categories: ["programming"]
+  url: 'https://huggingface.co/'
 
 - name: PyTorch
   logo: /images/sections/skills/torch.png
   summary: "Experience in Deep Learning using PyTorch library. Proficiency in designing, training and deploying machine learning models"
   categories: ["programming"]
   url: 'https://pytorch.org/'
+
+- name: Tensorflow
+  logo: /images/sections/skills/tensorflow.png
+  summary: "Experience in Deep Learning using Tensorflow library. Proficiency in designing, training and deploying machine learning models"
+  categories: ["programming"]
+  url: 'https://www.tensorflow.org/'
 
 - name: FastAI
   logo: /images/sections/skills/fastai.png
@@ -54,13 +71,13 @@ skills:
 
 - name: OpenCV
   logo: /images/sections/skills/opencv1.png
-  summary: "experience in image processing and features extraction"
+  summary: "Experience in image processing and features extraction"
   categories: ["programming"]
   url: 'https://opencv.org/'
 
-- name: statsmodel
+- name: statsmodels
   logo: /images/sections/skills/stats.svg
-  summary: "Experience (both in university and personal projects) in processing and modeling time-series data, including trend analysis, forecasting, seasonality. and temporal pattern detection, from statistical (AR to SARIMAX) models to Prophet models"
+  summary: "Experience (both in university and personal projects) in processing and modeling time-series data, including trend analysis, forecasting, seasonality, and temporal pattern detection, from statistical (AR to SARIMAX) models to Prophet models"
   categories: ["programming"]
   url: 'https://www.statsmodels.org/stable/index.html'
 
@@ -82,12 +99,6 @@ skills:
   categories: ["programming"]
   url: 'https://matplotlib.org/'
 
-- name: HuggingFace
-  logo: /images/sections/skills/hface.png
-  summary: "Experience with HuggingFace Transformers for retrieving SOTA models, image classification, embeddings extractions and GenAI models."
-  categories: ["programming"]
-  url: 'https://huggingface.co/'
-
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Daily use of Git for version control, collaboration, and codebase management environments (gists of CI/CD Development)."
@@ -102,9 +113,21 @@ skills:
 
 - name: AWS
   logo: /images/sections/skills/aws.png
-  summary: "Deployed machine learning models and monitoring systems using AWS services such as EC2, ECR, EC2, Sagemaker, RedShift, Lambda, AWS IoT, S3, SQS."
+  summary: "AWS Certified AI Practitioner and Solutions Architect - Associate. Deployed machine learning models, agentic systems and monitoring solutions using services such as Bedrock, Textract, Lambda, DynamoDB, Step Functions, CloudWatch, S3, SQS, RedShift, AWS IoT, SageMaker, EC2 and ECR."
   categories: ["cloud"]
   url: 'https://aws.amazon.com/'
+
+- name: Amazon Bedrock AgentCore
+  logo: /images/sections/skills/agentcore.png
+  summary: "Deployed agentic systems on AgentCore (Runtime and Gateway) with Claude models on Bedrock, adding LLMOps, observability, monitoring and canary deployment for production workloads."
+  categories: ["cloud"]
+  url: 'https://aws.amazon.com/bedrock/agentcore/'
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Infrastructure as code with Terraform for reproducible and versioned cloud deployments."
+  categories: ["cloud"]
+  url: 'https://www.terraform.io/'
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -126,6 +149,6 @@ skills:
 
 - name: French
   logo: /images/sections/skills/fr.png
-  summary: "B1 Level DELF French certificate obtained in March 2025, and 1 year of working experience in Paris"
+  summary: "Fluent (C1 working proficiency), working in Paris since 2024. B1 Level DELF French certificate obtained in March 2025"
   categories: ["languages"]
   url: ''

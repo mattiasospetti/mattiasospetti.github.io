@@ -2,12 +2,12 @@
 name: "Mattia Sospetti"
 nickname: "Mattia Sospetti"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: ""
+greeting: "Salut!"
 image: "images/author/me.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "mattiasospetti@libero.it"
-  phone: "+39 3490527759"
+  phone: "+33 0626392508"
   github: https://github.com/mattiasospetti
   linkedin: https://www.linkedin.com/in/mattiasospetti/
 

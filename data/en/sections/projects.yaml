@@ -25,7 +25,7 @@ projects:
   timeline: "April 2025 - June 2025"
   repo: "https://github.com/mattiasospetti/sqlStanford"
   url: "https://leetcode.com/studyplan/top-sql-50/"
-  summary: Answers for LeetCode top 50 SQL Questions (both in SQL and Pandas!)
+  summary: Answers for LeetCode top 50 SQL Questions (both in SQL and Pandas)
   tags: ["all","hobby"]
 
 - name: Data-Analysis
